@@ -39,7 +39,6 @@ nav > a:hover{
 #menu {
     text-align: center;
     display: none;
-    background-color: blue;
 }
 #menu > img{
     width: 40px;
