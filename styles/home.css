@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --font-titulos:'Pridi', serif;
+    --font-textos:'Roboto', sans-serif;
+    --cor1:#1DAA47;
+    --cor2:#065064;
+}
+
+#box1{
+    background-color: var(--cor1);
+    padding: 10px; 
+    margin-bottom: 40px;
+}
+#propaganda{
+    width: 70.2%;
+    font-family: var(--font-titulos);
+    color: white;
+    margin: auto;
+    display: flex;
+}
+#texto{
+    width: 60%;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: 500;
+}
+#texto > p{
+    margin: 6px 0px;
+}
+#imagem{
+    width: 40%;
+    padding: 10px;
+}
+/*================================================================================*/
+#box2{
+    width: 70.2%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#novo{
+    background-color: var(--cor2);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 0px;
+    width: 60%;
+    margin: auto;
+}
+#novo > p{
+    font-family: var(--font-titulos);
+    font-size: 20px;
+    color: white;
+    text-indent: 10px;
+}
+#recados{
+    width: 94%;
+    max-height: 200px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px 0px 0px 10px;
+    overflow-y: scroll;
+}
+/*================================================================================*/
+#box3{
+    margin-bottom: 40px;
+    background-color: var(--cor2);
+    margin-bottom: 40px;
+}
+#divulgar{
+    width: 70.2%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: var(--font-textos);
+    padding: 16px 0px;
+}
+#divulgar > h1{
+    font-family: var(--font-titulos);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#video{
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+#video > video{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.486);
+}
+#icon{
+    display: flex;
+    padding: 10px 0px;
+}
+.icons{
+    width: 33%;
+}
+.icons > img{
+    width: 70px;
+}
+#botoes{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-titulos);
+    margin-top: 20px;
+    font-weight: 500;
+}
+#b1, #b2{
+    padding: 4px 40px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+#b1{
+    margin-right: 40px;
+    background-color: white;
+    color: var(--cor2);
+    border: 2px solid white;
+
+}
+#b1:hover, #b2:hover{
+    text-decoration: underline;
+    padding: 4px 50px;
+    color: var(--cor1);
+}
+#b2{
+    margin-left: 40px;
+    background-color: var(--cor2);
+    border: 2px solid white;
+}
+
+/*================================================================================*/
+article{
+    width: 70.2%;
+    margin: auto;
+}
+#informacoes{
+    text-align: center;
+    font-family: var(--font-textos);
+    color: var(--cor2);
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#informacoes > h2{
+    font-family: var(--font-titulos);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/*================================================================================*/
+#box4{
+    background-color: var(--cor1);
+}
+#cursos{
+    width: 70.2%;
+    margin: auto;
+    font-family: var(--font-textos);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#cursos > h2{
+    font-family: var(--font-titulos);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#card{
+    display: flex;
+    max-width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+.cards{
+    max-width: 238px;
+    margin-left: 60px;
+    border: 1px solid black;
+    background-color: var(--cor2);
+}
+.conteudo{
+    padding: 4px;
+}
+#b3{
+    background-color: white;
+    color: var(--cor2);
+    font-family: var(--font-titulos);
+    font-weight: 600;
+    width: 140px;
+    margin: auto;
+    padding: 4px 0px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+#b3:hover{
+    text-decoration: underline;
+    color: #1DAA47;
+    padding: 4px 10px;
+}

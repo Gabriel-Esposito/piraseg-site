@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --font-titulos:'Pridi', serif;
+    --font-textos:'Roboto', sans-serif;
+    --cor1:#1DAA47;
+    --cor2:#065064;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    font-family: var(--font-titulos);
+    padding: 10px;
+}
+#top{
+    width: 70.2%;
+    display: flex;
+    margin: auto;
+}
+nav{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-left: 200px;
+}
+nav > a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: #065064;
+}
+#menu {
+    text-align: center;
+    display: none;
+    background-color: blue;
+}
+#menu > img{
+    width: 40px;
+    margin-left: 16px;
+    margin-top: 14px;
+}
+#menu >img:hover{
+    cursor: pointer;
+}
+#lista{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+}
+#lista > a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #065064;
+}
+#lista > a:hover{
+    color: var(--cor1);
+}
+.atual{
+    color: var(--cor1);
+}
+/*================================================================================*/
+footer{
+    background-color: black;
+    font-family: var(--font-titulos);
+    padding: 10px;
+}
+#bottom{
+    width: 70.2%;
+    margin: auto;
+    display: flex;
+}
+#logo-bottom{
+    width: 250px;
+}
+#rede{
+    width: 33%;
+    padding-left: 4px;
+    border-right: 1px solid white;
+}
+.redes, .devs{
+    margin: 4px 0px;
+}
+.redes > img, .devs > img{
+    width: 20px;
+}
+.redes > a, #info > a, #info > p, .devs >a{
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+.redes > a:hover, #info > a:hover, .devs > a:hover{
+    color: #1DAA47;
+    text-decoration: underline;
+}
+/*================================================================================*/
+#info{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 4px;
+    border-right: 1px solid white;
+    text-indent: 10px;
+}
+#info > a{
+    padding: 4px;
+}
+/*================================================================================*/
+#creditos{
+    color: white;
+    width: 33%;
+    padding-left: 4px;
+    text-indent: 10px;
+}
