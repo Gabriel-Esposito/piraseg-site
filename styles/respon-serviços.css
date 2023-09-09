@@ -1,0 +1,145 @@
+@media only screen and (max-width:1000px){
+    #top{
+        width: 100%;
+    }
+    #bottom{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:930px){
+    nav{
+        margin-left: 80px;
+    }
+    nav > a{
+        padding: 0px 10px;
+    }
+    #propaganda {
+        width: 99.8%;
+    }
+    .Treinamento > aside {
+        font-size: 15px;
+        width: 66%;
+    }
+    .Treinamento > aside > img {
+        width: 25%;
+        height: 25%;
+    }
+    .left {
+        margin-left: 20%;
+    }
+    article{
+        width: 100%;
+    }
+    #logo-bottom{
+        width: 150px;
+    }
+}
+@media only screen and (max-width:750px){
+    #logo > img{
+        padding-top: 10px;
+        width: 150px;
+    }
+    #propaganda {
+        width: 99.7%;
+    }
+    nav{
+        font-size: 16px;
+    }
+    nav > a{
+        padding: 0px 2px;
+    }
+    /*----treinamento*/
+    .Treinamento > aside {
+        font-size: 15px;
+    }
+    /*----informações*/
+    #informacoes > h2{
+        font-size: 18px;
+    }
+    #informacoes > p{
+        font-size: 14px;
+    }
+    /*-----CONTATOS----*/
+    .contato {
+        height: 55vh;
+    }
+    .contato > article {
+        display: block;
+    }
+    .left {
+        margin-left: 35%;
+    }
+    .right {
+        margin-left: 22%;
+        width: 40%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+    /*--- FOOTER ---*/
+    #bottom{
+        display: block;
+        text-align: center;
+    }
+    #logo-bottom{
+        width: 200px;
+    }
+    #rede, #info, #creditos{
+        width: 100%;        border-right:none; 
+        margin-bottom: 4px;     
+    }
+    #info, #creditos{
+        border-top: 1px solid white;
+    }
+}
+@media only screen and (max-width:500px){
+    nav{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-left: 170px;
+    }
+    #propaganda {
+        width: 99.6%;
+    }
+    nav{
+        font-size: 16px;
+    }
+    nav > a{
+        padding: 0px 2px;
+    }
+    /*----treinamento*/
+    .Treinamento {
+        height: 40vh;
+    }
+    .Treinamento > aside {
+        font-size: 13px;
+        width: 90%;
+    }
+    .Treinamento > aside > img {
+        width: 17%;
+    }
+    /*----informações*/
+    #informacoes > h2{
+        font-size: 18px;
+    }
+    #informacoes > p{
+        font-size: 14px;
+    }
+    /*-----CONTATOS----*/
+    .contato {
+        height: 55vh;
+    }
+    .contato > article {
+        display: block;
+    }
+    .left {
+        margin-left: 35%;
+    }
+    .right {
+        margin-left: 10%;
+        width: 70%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+}

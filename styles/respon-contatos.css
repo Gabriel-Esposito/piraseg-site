@@ -1,0 +1,119 @@
+@media only screen and (max-width:1000px){
+    #top{
+        width: 100%;
+    }
+    #bottom{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:930px){
+    nav{
+        margin-left: 80px;
+    }
+    nav > a{
+        padding: 0px 10px;
+    }
+
+    article{
+        width: 100%;
+    }
+    #ballon-piraseg {
+        font-size: 15px;
+    }
+    #ballon-user {
+        font-size: 15px;
+    }
+    .left {
+        font-size: 16px;
+        width: 30%;
+        margin-left: 15%;
+    }
+    #logo-bottom{
+        width: 150px;
+    }
+
+}
+@media only screen and (max-width:750px){
+    #logo > img{
+        padding-top: 10px;
+        width: 150px;
+    }
+    nav{
+        font-size: 16px;
+    }
+    nav > a{
+        padding: 0px 2px;
+    }
+    .informações {
+        height: 65vh;
+    }
+    .informações > article {
+        display: block;
+    }
+    .left {
+        margin-left: 30%;
+        width: 40%;
+    }
+    .right {
+        margin-left: 22%;
+        width: 40%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+    #ballon-piraseg {
+        font-size: 12px;
+        width: 60%;
+    }
+    #ballon-user {
+        font-size: 12px;
+        width: 60%;
+    }
+    #bottom{
+        display: block;
+        text-align: center;
+    }
+    #logo-bottom{
+        width: 200px;
+    }
+    #rede, #info, #creditos{
+        width: 100%;        border-right:none; 
+        margin-bottom: 4px;     
+    }
+    #info, #creditos{
+        border-top: 1px solid white;
+    }
+}
+@media only screen and (max-width:500px){
+    nav{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-left: 170px;
+    }
+    .informações {
+        height: 65vh;
+    }
+    .informações > article {
+        display: block;
+    }
+    #ballon-piraseg {
+        font-size: 12px;
+        width: 70%;
+        padding: 10px;
+    }
+    #ballon-user {
+        font-size: 10px;
+        width: 70%;
+        padding: 10px;
+    }
+    .left {
+        margin-left: 25%;
+    }
+    .right {
+        margin-left: 10%;
+        width: 70%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+}
