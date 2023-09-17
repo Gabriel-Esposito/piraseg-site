@@ -55,18 +55,18 @@
         width: 40%;
     }
     .right {
-        margin-left: 22%;
-        width: 40%;
+        margin-left: 20%;
+        width: 50%;
         border: hidden;
         border-top: 1px solid;
     }
     #ballon-piraseg {
         font-size: 12px;
-        width: 60%;
+        width: max-content;
     }
     #ballon-user {
         font-size: 12px;
-        width: 60%;
+        width: max-content;
     }
     #bottom{
         display: block;
@@ -111,9 +111,24 @@
         margin-left: 25%;
     }
     .right {
-        margin-left: 10%;
-        width: 70%;
+        margin-left: 2%;
+        width: 80%;
         border: hidden;
         border-top: 1px solid;
+    }
+    
+    @media only screen and (max-width:400px)
+    {
+        .right {
+            width: 70%;
+            margin-left: 5%;
+        }
+        nav{
+            display: none;
+        }
+        #menu{
+            display: block;
+            margin-left: 120px;
+        }
     }
 }

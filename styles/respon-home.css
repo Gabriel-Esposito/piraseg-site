@@ -1,19 +1,20 @@
-@media only screen and (max-width:1000px){
-    #top{
-        width: 100%;
+@media only screen and (max-width:1300px){
+    #box2{
+        width: 90%;
     }
+}
+@media only screen and (max-width:1000px){
     #bottom{
         width: 100%;
     }
+    #box2{
+        width: 100%;
+    }
+    #novo{
+        width: 80%;
+    }
 }
 @media only screen and (max-width:930px){
-    nav{
-        margin-left: 80px;
-    }
-    nav > a{
-        padding: 0px 10px;
-    }
-
     #propaganda,#box2,#divulgar,article,cursos{
         width: 100%;
     }
@@ -22,16 +23,6 @@
     }
 }
 @media only screen and (max-width:750px){
-    #logo > img{
-        padding-top: 10px;
-        width: 150px;
-    }
-    nav{
-        font-size: 16px;
-    }
-    nav > a{
-        padding: 0px 2px;
-    }
     #texto{
         width: 100%;
     }
@@ -107,12 +98,8 @@
     }
 }
 @media only screen and (max-width:500px){
-    nav{
-        display: none;
-    }
-    #menu{
-        display: block;
-        margin-left: 170px;
+    #novo{
+        width: 95%;
     }
     .cards{
         margin-left: 20px;

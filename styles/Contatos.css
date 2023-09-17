@@ -7,16 +7,20 @@
     --cor1:#1DAA47;
     --cor2:#065064;
 }
-main > #top1 {
+#top1 {
     font-family: var(--font-titulos);
     color: white;
     text-align: center;
     padding: 20px;
-    background-color: #1DAA47;
+    background-color: var(--cor2);
+}
+#top1 > h3{
+    font-weight: 400;
 }
 /* ---- informaçõs ----- */
 .informações {
     background-color: #1DAA47;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.445);
     color: white;
     height: 45vh;
     font-family: var(--font-textos);
@@ -63,8 +67,7 @@ main > #top1 {
     height: 22vh;
     display: flex;
     padding: 0px 0px 0px 70px;
-    border: 1px hidden;
-    border-left-style: solid;
+    border-left: solid;
     padding-top: 30px;
 }
 .right > div >img {
@@ -74,20 +77,20 @@ main > #top1 {
 }
 /*------ animação --------*/
 .anim {
-    background-color: #043341;
+    background-image: linear-gradient(to top,var(--cor2),var(--cor1));
 }
 .anim > aside {
-    background:url("/imgs/zapzapfundo.jpg");
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    border: 1px solid;
+    border: 1px solid black;
 }
 /* os balões */
 
-#ballon-piraseg {
+#ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
     margin: 2%;
-    width: 35%;
+    width: max-content;
     color: #ffffff;
     text-align: center;
     font-family: var(--font-textos);
@@ -97,10 +100,10 @@ main > #top1 {
     border-radius: 10px;
 }
 
-#ballon-user {
+#ballon-user1,#ballon-user2{
     margin: 2%;
     margin-left: auto;
-    width: 35%;
+    width: max-content;
     color: #ffffff;
     text-align: center;
     font-family: var(--font-textos);
@@ -123,5 +126,16 @@ main > #top1 {
 .contato {
     text-align: left;
     width: 100%;
+}
 
+#ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3,#ballon-user1,#ballon-user2{
+    margin-bottom: 50px;
+    visibility: hidden;
+}
+.mark{
+    color: var(--cor1);
+    text-decoration: underline;
+}
+.mark:hover{
+    color: rgb(18, 18, 182);
 }

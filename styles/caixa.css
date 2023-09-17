@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.caixa{
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 40px;
+}
+.img-altor > img{
+    width: 80px;
+    border-radius: 50%;
+}
+.b{
+    display: flex;
+}
+.icon-b > a > img{
+    width: 16px;
+}
+.icon-b > p{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.conteiner{
+    background-color: #065064;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.conteudo-novo{
+    background-color: white;
+    padding: 2px;
+    color:black;
+    margin-bottom: 10px;
+}
+.link{
+    background-color: #1DAA47;
+    color: white;
+}
+.baixar{
+    background-color: white;
+    color: black;
+    margin: 0px 20px;
+}
+.link,.baixar{
+    padding: 4px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 500;
+}
+@media only screen and (max-width:600px){
+    .caixa{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .link,.baixar{
+        font-size: 14px;
+    }
+    .baixar{
+        margin: 0px 10px;
+    }
+    .icon-b > a > img{
+        width: 12px;
+    }
+}

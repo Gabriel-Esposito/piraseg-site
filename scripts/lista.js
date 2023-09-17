@@ -9,3 +9,10 @@ function Lista(){
         abrir = 0
     }
 }
+
+function zap(){
+    window.location.href = "https://wa.me/5532999820536"
+}
+function piraseg(){
+    window.location.href = "https://pirasegmg.formasegead.com.br/"
+}

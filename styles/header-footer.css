@@ -100,6 +100,25 @@ footer{
     text-decoration: underline;
 }
 /*================================================================================*/
+#zap{
+    width: 100%;
+    margin-top: 40%;
+    position: fixed;
+    text-align: end;
+}
+#zap > img{
+    width: 80px;
+    margin-right: 5%;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.192);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#zap > img:hover{
+    width: 90px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+/*================================================================================*/
 #info{
     width: 33%;
     display: flex;
@@ -117,4 +136,50 @@ footer{
     width: 33%;
     padding-left: 4px;
     text-indent: 10px;
+}
+/*================================================================================*/
+@media only screen and (max-width:1300px){
+    #top{
+        width: 100%;
+    }
+    #logo{
+        margin-left: 4%;
+    }
+    nav{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width:1100px){
+    nav{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width:930px){
+    nav{
+        margin-left: 140px;
+    }
+    nav > a{
+        padding: 0px 10px;
+    }
+}
+@media only screen and (max-width:780px){
+    #logo > img{
+        padding-top: 10px;
+        width: 150px;
+    }
+    nav{
+        font-size: 16px;
+    }
+    nav > a{
+        padding: 0px 2px;
+    }
+}
+@media only screen and (max-width:640px){
+    nav{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-left: 170px;
+    }
 }
