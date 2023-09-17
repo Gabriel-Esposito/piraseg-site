@@ -7,20 +7,13 @@
     }
 }
 @media only screen and (max-width:930px){
-    nav{
-        margin-left: 80px;
-    }
-    nav > a{
-        padding: 0px 10px;
-    }
-
     article{
         width: 100%;
     }
-    #ballon-piraseg {
+    #ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
         font-size: 15px;
     }
-    #ballon-user {
+    #ballon-user1,#ballon-user2 {
         font-size: 15px;
     }
     .left {
@@ -34,16 +27,6 @@
 
 }
 @media only screen and (max-width:750px){
-    #logo > img{
-        padding-top: 10px;
-        width: 150px;
-    }
-    nav{
-        font-size: 16px;
-    }
-    nav > a{
-        padding: 0px 2px;
-    }
     .informações {
         height: 65vh;
     }
@@ -60,11 +43,11 @@
         border: hidden;
         border-top: 1px solid;
     }
-    #ballon-piraseg {
+    #ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
         font-size: 12px;
         width: max-content;
     }
-    #ballon-user {
+    #ballon-user1,#ballon-user2 {
         font-size: 12px;
         width: max-content;
     }
@@ -84,25 +67,18 @@
     }
 }
 @media only screen and (max-width:500px){
-    nav{
-        display: none;
-    }
-    #menu{
-        display: block;
-        margin-left: 170px;
-    }
     .informações {
         height: 65vh;
     }
     .informações > article {
         display: block;
     }
-    #ballon-piraseg {
+    #ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
         font-size: 12px;
         width: 70%;
         padding: 10px;
     }
-    #ballon-user {
+    #ballon-user1,#ballon-user2 {
         font-size: 10px;
         width: 70%;
         padding: 10px;
@@ -122,13 +98,6 @@
         .right {
             width: 70%;
             margin-left: 5%;
-        }
-        nav{
-            display: none;
-        }
-        #menu{
-            display: block;
-            margin-left: 120px;
         }
     }
 }

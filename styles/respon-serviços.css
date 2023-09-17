@@ -7,12 +7,6 @@
     }
 }
 @media only screen and (max-width:930px){
-    nav{
-        margin-left: 80px;
-    }
-    nav > a{
-        padding: 0px 10px;
-    }
     #propaganda {
         width: 99.8%;
     }
@@ -35,18 +29,9 @@
     }
 }
 @media only screen and (max-width:750px){
-    #logo > img{
-        padding-top: 10px;
-        width: 150px;
-    }
+
     #propaganda {
         width: 99.7%;
-    }
-    nav{
-        font-size: 16px;
-    }
-    nav > a{
-        padding: 0px 2px;
     }
     /*----treinamento*/
     .Treinamento > aside {
@@ -75,38 +60,10 @@
         border: hidden;
         border-top: 1px solid;
     }
-    /*--- FOOTER ---*/
-    #bottom{
-        display: block;
-        text-align: center;
-    }
-    #logo-bottom{
-        width: 200px;
-    }
-    #rede, #info, #creditos{
-        width: 100%;        border-right:none; 
-        margin-bottom: 4px;     
-    }
-    #info, #creditos{
-        border-top: 1px solid white;
-    }
 }
 @media only screen and (max-width:500px){
-    nav{
-        display: none;
-    }
-    #menu{
-        display: block;
-        margin-left: 170px;
-    }
     #propaganda {
         width: 99.6%;
-    }
-    nav{
-        font-size: 16px;
-    }
-    nav > a{
-        padding: 0px 2px;
     }
     /*----treinamento*/
     .Treinamento {
