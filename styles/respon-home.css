@@ -4,9 +4,6 @@
     }
 }
 @media only screen and (max-width:1000px){
-    #bottom{
-        width: 100%;
-    }
     #box2{
         width: 100%;
     }
@@ -81,20 +78,6 @@
     }
     .conteudo > p{
         font-size: 14px;
-    }
-    #bottom{
-        display: block;
-        text-align: center;
-    }
-    #logo-bottom{
-        width: 200px;
-    }
-    #rede, #info, #creditos{
-        width: 100%;        border-right:none; 
-        margin-bottom: 4px;     
-    }
-    #info, #creditos{
-        border-top: 1px solid white;
     }
 }
 @media only screen and (max-width:500px){
