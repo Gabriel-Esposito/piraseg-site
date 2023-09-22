@@ -61,6 +61,24 @@
         border-top: 1px solid;
     }
 }
+@media only screen and (max-height:520px) {
+    .Treinamento {
+        height: 85vh;
+    }
+    .contato {
+        height: 75vh;
+    }
+    
+}
+@media only screen and (max-height:350px) {
+    .Treinamento {
+        height: 100vh;
+    }
+    .contato {
+        height: 95vh;
+    }
+    
+}
 @media only screen and (max-width:500px){
     #propaganda {
         width: 99.6%;

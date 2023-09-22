@@ -66,6 +66,16 @@
         border-top: 1px solid white;
     }
 }
+@media only screen and (max-height:475px) {
+    .informações {
+        height: 80vh;
+    }
+}
+@media only screen and (max-height:350px) {
+    .informações {
+        height: 110vh;
+    }
+}
 @media only screen and (max-width:500px){
     .informações {
         height: 65vh;
