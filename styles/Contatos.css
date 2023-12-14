@@ -77,40 +77,70 @@
 }
 /*------ animação --------*/
 .anim {
-    background-image: linear-gradient(to top,var(--cor2),var(--cor1));
+    background: var(--cor2);
+    padding: 10vh 0;
+    display: flex;
 }
 .anim > aside {
-    background-color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    border: 1px solid black;
+    width: 40%;
+    border: solid 1px white;
+    font-size: 16px;
+}
+.Explanation {
+    width: 50vh;
+    font-family: var(--font-titulos);
+    color: white;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    font-size: 64px;
+    text-shadow: 10px 1px 10px black;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s, transform 0.5s;
 }
 /* os balões */
-
-#ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
+.icon
+{
+    filter: brightness(0);
+}
+.ballon
+{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 200px;
+    word-wrap: break-word;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+.piraseg {
     margin: 2%;
+    margin-right: auto;
     width: max-content;
     color: #ffffff;
-    text-align: center;
     font-family: var(--font-textos);
-    padding: 20px 50px;
-    background-color: #065064;
-    border: 2px solid #043341;
+    padding: 5px 20px;
+    background-color: #ece5dd;
     border-radius: 10px;
+    align-self: flex-start;
+    color: black;
+    font-size: 12px;
 }
 
-#ballon-user1,#ballon-user2{
+.user{
     margin: 2%;
     margin-left: auto;
     width: max-content;
     color: #ffffff;
-    text-align: center;
     font-family: var(--font-textos);
-    padding: 20px 50px;
-    background-color:#1DAA47;
-    border: 2px solid #138a36;
+    padding: 5px 20px;
+    background-color: #075e54;
     border-radius: 10px;
+    align-self: flex-end;
+    font-size: 12px;
 }
 .anim > aside > div > h4 {
     width: max-content;
@@ -120,18 +150,14 @@
     margin-bottom: 3vh;
 }
 .contato > div > img {
-    width: 20px;
-    padding: 0px 10px;
+    width: 14px;
+    padding: 0px 2px;
 }
 .contato {
     text-align: left;
     width: 100%;
 }
 
-#ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3,#ballon-user1,#ballon-user2{
-    margin-bottom: 50px;
-    visibility: hidden;
-}
 .mark{
     color: var(--cor1);
     text-decoration: underline;
@@ -139,3 +165,41 @@
 .mark:hover{
     color: rgb(18, 18, 182);
 }
+/* SMARTPHONE */
+
+  
+.smartphone {
+    margin-left: auto;
+    margin-right: 15vw;
+    position: relative;
+    width: 300px;
+    height: 550px;
+    background-color: #333;
+    border: solid 6px black;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+    box-shadow: 50px 20px 100px black;
+  }
+  
+  .screen {
+    height: 80%;
+    padding: 10px 0px;
+    background-image: url(../imgs/zapzapfundo.jpg);
+    background-size: cover;
+    overflow: auto;
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 10px;
+    background-color: #666;
+    border-radius: 5px;
+  }
+  

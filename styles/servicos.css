@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --font-titulos:'Pridi', serif;
+    --font-textos:'Roboto', sans-serif;
+    --cor1:#1DAA47;
+    --cor2:#065064;
+}
+main {
+    font-family: var(--font-textos);
+}
+
+section {
+    height: 80vh;
+}
+.greem {
+    background-color: var(--cor1);
+}
+.blue {
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: end;
+}
+.conteiner1 {
+    height: 100%;
+    width: 50%;
+    border-right: 4px solid black;
+}
+.conteiner2 {
+    height: 100%;
+    width: 49.7%;
+    border-left: 4px solid black;
+}
+.card1 {
+    display: flex;
+    position: relative;
+    left: 8.1%;
+    top: 24%;
+}
+.card2 {
+    display: flex;
+    position: relative;
+    right: 8%;
+    top: 24%;
+}
+.card1 , .card2 {
+    visibility: hidden;
+}
+.box {
+    width: 80%;
+    padding: 1em;
+    border-radius: 1em;
+    border: 2px solid white;
+    box-shadow: 0px 0px 4px black;
+    color: white;
+}
+.atual-div {
+    width: 4em;
+    height: 4em;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atual-div > .bola {
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50%;
+}
+
+/* ==================================================================================== */
+
+.box > h1{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.box > p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.redes-card {
+    display: flex;
+    justify-content: center;
+}
+.redes-card > img{
+    width: 1.6em;
+    margin: 2em 0em 0em 2em;
+    cursor: pointer;
+}

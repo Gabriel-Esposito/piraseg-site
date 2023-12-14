@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piraseg</title>
     <link rel="stylesheet" href="styles/header-footer.css">
-    <link rel="stylesheet" href="styles/Serviços.css">
+    <link rel="stylesheet" href="styles/servicos.css">
     <link rel="stylesheet" href="styles/respon-serviços.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="scripts/lista.js"></script>
 </head>
+
 <body>
     <header>
         <div id="top">
@@ -32,26 +35,76 @@
             </div>
         </div>
     </header>
+
+    <main>
+        <section class="greem">
+            <div class="conteiner1">
+                <div class="card1">
+                    <div class="box">
+                        <h1>EAD</h1>
+                        <p>A piraseg oferece cursos e aulas 100% EAD, com materiais didaticos avançados que são
+                            recularmente atualizados e uma plataforma EAD de facil acesso com direito a certificados
+                            validos em todo territorio nacional.</p>
+                    </div>
+                    <div class="atual-div">
+                        <div class="bola"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blue">
+            <div class="conteiner2">
+                <div class="card2">
+                    <div class="atual-div">
+                        <div class="bola"></div>
+                    </div>
+                    <div class="box">
+                        <h1>TREINAMENTOS</h1>
+                        <p>Treinamentos em segurança do trabalho, presenciais e virtuais, com professores especializados
+                            e atualizados sobre as novas regras da N10. Oferecemos também, suporte tecnico e suportes as
+                            necessidades da empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="greem">
+            <div class="conteiner1">
+                <div class="card1">
+                    <div class="box">
+                        <h1>LAUDOS</h1>
+                        <p>Avaliações meticulosas em relações as condições de trabalho, laudos de insalubridade e
+                            periculosidade realizados presencialmente.</p>
+                    </div>
+                    <div class="atual-div">
+                        <div class="bola"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blue">
+            <div class="conteiner2">
+                <div class="card2">
+                    <div class="atual-div">
+                        <div class="bola"></div>
+                    </div>
+                    <div class="box">
+                        <h1>REDES</h1>
+                        <p>Aconbpanhe a PiraSeg nas redes socias e fique ligados nas atualizações constantes em nossas páginas!</p>
+                        <div class="redes-card">
+                            <img src="imgs/whatsapp.png" alt="whatsapp" onclick="zap()">
+                            <img src="imgs/facebook.png" alt="facebook" onclick="facebook()">
+                            <img src="imgs/e-mail.png" alt="e-mail" onclick="email()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <div id="zap">
         <img src="imgs/whatsapp-verde.png" alt="" onclick="zap()">
     </div>
-        <article id="propaganda">propaganda</article>
-        <article class="Treinamento">
-        <aside><img src="imgs/trabalhador.png" alt="" srcset="">Treinamentos, vistorias, regulamentação. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, id velit aut, quos amet unde expedita explicabo iure ducimus architecto accusantium omnis nobis sed. Veniam at modi facere nam consectetur?</aside>
-        <br>
-        <aside><img src="imgs/ecologia.png" alt="" srcset="">Treinamentos, vistorias, regulamentação. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, id velit aut, quos amet unde expedita explicabo iure ducimus architecto accusantium omnis nobis sed. Veniam at modi facere nam consectetur?</aside></article>
-        <article class="informações">
-            <div id="informacoes">
-                <h2>INFORMAÇÕES</h2>
-                <p>Somos a PIRASEG uma empresa de segurança do trabalho, cursos EADS e treinamentos de segurança, consultoria e assessoria em segurança do trabalho. Atuamos em Pirapetinga e região, lutando por mais saúde, segurança e menos acidentes no trabalho!</p>
-            </div>
-        </article>
-        <article class="contato"><h3>CONTATOS</h3>
-            <article class="contatos">
-                <aside class="left"><div><img src="imgs/whatsapp.png" alt="" srcset="">+55 (32) 99982-0536</div><div><img src="imgs/facebook.png" alt="" srcset="">pirasegmg</div><div><img src="imgs/e-mail.png" alt="" srcset="">pirasegmg@gmail.com</div></aside>
-                <aside class="right"><div><img src="imgs/localizacao.png" alt="" srcset=""></div><div><h6 style="color: black;">Endereço:</h6>Rua Dona Pulcena, 159 - Centro, Pirapetinga, Minas Gerais - 36.730-000</div></aside>
-            </article>
-        </article>
+
     <footer>
         <div id="bottom">
             <div id="rede">
@@ -62,7 +115,8 @@
                 </div>
                 <div class="redes">
                     <img src="imgs/facebook.png" alt="facebook">
-                    <a href="https://www.facebook.com/people/Piraseg-Consultoria/100093117411278/?mibextid=ZbWKwL" target="_blank">Piraseg- Consultoria</a>
+                    <a href="https://www.facebook.com/people/Piraseg-Consultoria/100093117411278/?mibextid=ZbWKwL"
+                        target="_blank">Piraseg- Consultoria</a>
                 </div>
                 <div class="redes">
                     <img src="imgs/e-mail.png" alt="e-mail">
@@ -70,14 +124,19 @@
                 </div>
                 <div class="redes">
                     <img src="imgs/localizacao.png" alt="mapa">
-                    <a href="https://www.google.com.br/maps/place/R.+Don%C3%A1+Pulcena,+159+-+Pirapetinga,+MG,+36730-000/@-21.6572603,-42.3464073,17z/data=!3m1!4b1!4m6!3m5!1s0xbd391b591b5b09:0x881caa204e3ca7d0!8m2!3d-21.6572653!4d-42.3438324!16s%2Fg%2F11fd144fpl?entry=ttu" target="_blank">Rua Dona Pulcena, 159 - Centro, Pirapetinga, Minas Gerais - 36.730-000</a>
+                    <a href="https://www.google.com.br/maps/place/R.+Don%C3%A1+Pulcena,+159+-+Pirapetinga,+MG,+36730-000/@-21.6572603,-42.3464073,17z/data=!3m1!4b1!4m6!3m5!1s0xbd391b591b5b09:0x881caa204e3ca7d0!8m2!3d-21.6572653!4d-42.3438324!16s%2Fg%2F11fd144fpl?entry=ttu"
+                        target="_blank">Rua Dona Pulcena, 159 - Centro, Pirapetinga, Minas Gerais - 36.730-000</a>
                 </div>
             </div>
             <div id="info">
-                <a href="https://s3.us-west-1.wasabisys.com/sites/2021/03/ART_28027230210185199_8D8CD98126632D6-1.pdf" target="_blank">ART dos Treinamentos</a>
-                <a href="https://drive.google.com/file/d/1r2vJbWLZf22nULrq8kGuzjGBKv0Ewxy6/view?pli=1" target="_blank">Plano Pedagógico</a>
-                <a href="https://pirasegmg.formasegead.com.br/politica-de-privacidade/" target="_blank">Política de privacidade</a>
-                <a href="https://pirasegmg.formasegead.com.br/consentimento-de-cookies/" target="_blank">Consentimentos de Cookies</a>
+                <a href="https://s3.us-west-1.wasabisys.com/sites/2021/03/ART_28027230210185199_8D8CD98126632D6-1.pdf"
+                    target="_blank">ART dos Treinamentos</a>
+                <a href="https://drive.google.com/file/d/1r2vJbWLZf22nULrq8kGuzjGBKv0Ewxy6/view?pli=1"
+                    target="_blank">Plano Pedagógico</a>
+                <a href="https://pirasegmg.formasegead.com.br/politica-de-privacidade/" target="_blank">Política de
+                    privacidade</a>
+                <a href="https://pirasegmg.formasegead.com.br/consentimento-de-cookies/" target="_blank">Consentimentos
+                    de Cookies</a>
                 <p>PIRASEG- consutoria e assesoria em segurança do trabalho&reg;2023</p>
             </div>
             <div id="creditos">
@@ -97,5 +156,12 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        window.sr = ScrollReveal({reset: true})
+        sr.reveal('.card1',{duration:1000})
+        sr.reveal('.card2',{duration:1000})
+    </script>
 </body>
+
 </html>

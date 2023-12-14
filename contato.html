@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/Contatos.css">
     <link rel="stylesheet" href="styles/respon-contatos.css">
     <script src="scripts/lista.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -33,20 +32,23 @@
             </div>
         </div>
     </header>
-    <div id="zap">
+    <div class="zap">
         <img src="imgs/whatsapp-verde.png" alt="" onclick="zap()">
     </div>
     <main>
-        
-        <div id="top1"><h3>O QUE É A <span class="mark" onclick="piraseg()">PIRASEG</span>?</h3></div>
         <article class="anim">
-            <aside>
-                <div id="ballon-piraseg1">A <span class="mark" onclick="piraseg()">PIRASEG</span> é uma empresa voltada para o <br> mundo da segurança do trabalho</div>
-                <div id="ballon-user1">Além de ser uma empresa que <br>presta serviços, treinamentos e ainda da <br> suporte a outras empresas nesse quesito</div>
-                <div id="ballon-piraseg2">Também possui uma plataforma de treinamento <br> EAD com diversos cursos da área atualizados!</div>
-                <div id="ballon-user2">Como entrar em contato?</div>
-                <div id="ballon-piraseg3"><h4>Nossas redes sociais:</h4><br><aside class="contato"><div><img src="imgs/whatsapp.png" alt="" srcset="">+55 (32) 99982-0536</div><div><img src="imgs/facebook.png" alt="" srcset="">pirasegmg</div><div><img src="imgs/e-mail.png" alt="" srcset="">pirasegmg@gmail.com</div></aside></div>
-            </aside>
+            <div class="Explanation">MAS O QUE É A PIRASEG??? 🤔</div>
+            <div class="smartphone">
+                <div class="screen">
+                    <div class="ballon piraseg">A <span class="mark" onclick="piraseg()">PIRASEG</span> é uma empresa voltada para o mundo da segurança do trabalho 👷‍♂️👷‍♀️</div>
+                    <div class="ballon user">Além de ser uma empresa que presta serviços, treinamentos e ainda da suporte a outras empresas nesse quesito 🏢</div>
+                    <div class="ballon piraseg">Também possui uma plataforma de treinamento EAD com diversos cursos da área atualizados! 💻✅</div>
+                    <div class="ballon user">Como entrar em contato? 🤔</div>
+                    <div class="ballon piraseg"><h4>Nossas redes sociais:</h4><br><aside class="contato"><div><img class="icon" src="imgs/whatsapp.png" alt="" srcset="">+55 (32) 99982-0536</div><div><img class="icon" src="imgs/facebook.png" alt="" srcset="">pirasegmg</div><div><img class="icon" src="imgs/e-mail.png" alt="" srcset="">pirasegmg@gmail.com</div></aside></div>
+                    <div class="ballon user">Puxa Muito obrigado! irei entrar em contato agora mesmo 😁👍</div>
+                </div>
+                <div class="button"></div>
+              </div>
         </article>
         <article class="informações">
             <h3>INFORMAÇÕES DA EMPRESA</h3>
@@ -103,13 +105,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        window.sr = ScrollReveal({reset: true})
-        sr.reveal('#ballon-piraseg1',{duration:2000})
-        sr.reveal('#ballon-piraseg2',{duration:3000})
-        sr.reveal('#ballon-piraseg3',{duration:4000})
-        sr.reveal('#ballon-user1',{duration:2500})
-        sr.reveal('#ballon-user2',{duration:3500})
-    </script>
+    <script src="scripts/MessageBox.js"></script>
 </body>
 </html>
