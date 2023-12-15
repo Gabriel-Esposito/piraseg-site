@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(() => {
                 message.style.opacity = 1;
                 message.style.transform = "translateX(0)";
-            }, index * 1200)
+            }, index * 900)
         });
         }
 });
